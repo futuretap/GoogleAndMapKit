@@ -1,3 +1,14 @@
+About
+-----
+
+This is a demo project showcasing features of Google Maps SDK and MapKit. If you speak German, please check out the article:
+
+**Landkarten in Apps**  
+Vorteile und Nachteile der Karten-Frameworks von Apple und Google  
+[Mac & i 4/2014, page 154](http://www.heise.de/mac-and-i/heft/2014/4/154/)  
+
+
+
 Obtaining an API Key
 --------------------
 

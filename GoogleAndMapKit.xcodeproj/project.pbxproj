@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C27DCF01AEC43DFC106C25 /* FitBoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3EA327A271CA6A64D117A6 /* FitBoundsViewController.m */; };
+		0272088458DBCF4512221124 /* argentina.png in Resources */ = {isa = PBXBuildFile; fileRef = EBDAAD248E528C9D828A2878 /* argentina.png */; };
+		05D1B14AD0FA288CA1B83460 /* popup_santa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D81C6119C4C7DE07FB42F86D /* popup_santa@2x.png */; };
+		05ED99406D8E5C178D8EF0B6 /* GeocoderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD92F5F6AB10EDD9098A9DC /* GeocoderViewController.m */; };
+		091F587A96B8D4C0768FE74A /* CustomMarkersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD36A58B321268BB8E267874 /* CustomMarkersViewController.m */; };
+		0981402CB32A9043C27B1831 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D35CE548040C1EF3B8BD581 /* QuartzCore.framework */; };
+		0A7CB2C3E7FE44D1F59D1DC1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA8B2B19FA46102744D14EF /* libz.dylib */; };
+		0DE84EB76067BB08EC733A02 /* DoubleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A578CA16809EBB3047B3C573 /* DoubleMapViewController.m */; };
+		0FDE1F69BBDE93C2B512CC31 /* step1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE7C2DA207359F759D081156 /* step1.png */; };
+		1153C9619E278B5BF37B88D6 /* bulgaria.png in Resources */ = {isa = PBXBuildFile; fileRef = BAF511F09C737A22E0A76E59 /* bulgaria.png */; };
+		146522ADF5E4653064507E24 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBAEFAF2820EDE4EBA5D943 /* OpenGLES.framework */; };
+		147A0D8218B663D1E458E229 /* MyLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A37ED9FA16A22EFC586E32E /* MyLocationViewController.m */; };
+		16BE74433024517B9B1C864B /* botswana.png in Resources */ = {isa = PBXBuildFile; fileRef = 97284C2589969381B1F2BF65 /* botswana.png */; };
+		1AFC6570D545FC38BB8C322F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0416087FE83DCD914CF69FA9 /* CoreGraphics.framework */; };
+		26C25B81838398AE6E5383FC /* voyager@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB330C8620876E40BEC85968 /* voyager@2x.png */; };
+		2999EBF0E34D68F2AE416460 /* x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 124B199908A64B1EE958F3CA /* x29@2x.png */; };
+		2CC0BC7BFF60B74F68079374 /* MapZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45580B3C558B48DD3359F2A1 /* MapZoomViewController.m */; };
+		3032EA8106BD7AF16F5DF259 /* aeroplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E000124A1962A304CEAAB8 /* aeroplane.png */; };
+		32E27F6DC1EFB36749C45888 /* MarkerEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1D873627D847B5C1B099FC /* MarkerEventsViewController.m */; };
+		338EE78A3EEC20EFAA09A0C5 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B247AC68273A6B9F29ED6CDC /* ImageIO.framework */; };
+		340360BD9885D4B2CB1A1BA7 /* argentina-large.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C29D1A0DA47D1691C6CE0A5 /* argentina-large.png */; };
+		34729168899BC5A8AEF0F708 /* StructuredGeocoderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64888C52E2E272FEFE7C18AA /* StructuredGeocoderViewController.m */; };
+		3957BC4AABB66FC0D89E6063 /* track.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F1ABBF9B2E96BC488485119 /* track.json */; };
+		3997A14E5BFDCDFF8F8BEF29 /* MarkersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D5258F1365BCD57029138 /* MarkersViewController.m */; };
+		3AF4F564272BFBDA037F523C /* CustomIndoorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1CD2C01411A35969C872BA /* CustomIndoorViewController.m */; };
+		3B3186C4C9EC35A5AAFFFBC8 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3401A5B1795F7B7056A7F491 /* arrow.png */; };
+		3DB2EDBBDE04807BD2988B53 /* step6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D05C1274204C92F13ABD8599 /* step6@2x.png */; };
+		3FB59BEC93080C8338B58C66 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 842A2FB43838968D313B1783 /* Default.png */; };
+		41C7A1B602F1BAD1D790933C /* spitfire.png in Resources */ = {isa = PBXBuildFile; fileRef = FE2B3D4C04A8916BC8027A72 /* spitfire.png */; };
+		4250F1986D027F8104E68F09 /* step4.png in Resources */ = {isa = PBXBuildFile; fileRef = 98A5F219881F5A5612905ABC /* step4.png */; };
+		42719A8092E0ABC1D99AFF9A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9820B8516BCB7CD9A6553720 /* CoreData.framework */; };
+		448BF4DEBE647F82DB3F546F /* PolylinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429F95111FD1F8B8A1C16865 /* PolylinesViewController.m */; };
+		4EF00FDC67A0692CB38DCDF7 /* museum-exhibits.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A597E83DFFF77F1EBD76B64 /* museum-exhibits.json */; };
+		5028C7AC5D1F0B46933438E1 /* botswana-large.png in Resources */ = {isa = PBXBuildFile; fileRef = D619B3D989A533F358F1D077 /* botswana-large.png */; };
+		57EA287CD1A824023366297C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 006739C6096E6B69D83F4A03 /* main.m */; };
+		5820428B1DE5AFB054FB571C /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 193951C11D1549E7701FFC40 /* libc++.dylib */; };
+		5845F7FA68488B60665B428C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837C86EA9AC87A3A5EA16145 /* AVFoundation.framework */; };
+		596BEB117E21F5FE49636898 /* PolygonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90258FFF395A5E25CCEC3AB0 /* PolygonsViewController.m */; };
+		59A210B879A25213DDCF3F3B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B47995B2A94F831E8B7DD0F /* GLKit.framework */; };
+		5BC3DC896D1AA382964BCD56 /* GradientPolylinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFD80C8485C48F2C90C85A8 /* GradientPolylinesViewController.m */; };
+		5BDFE7F34E8C2115C4DCB84C /* GestureControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA108F4D0C3BDA34CE54180 /* GestureControlViewController.m */; };
+		5EE0D081F13A04EB04B9E16C /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46FF553F45838251496245F9 /* arrow@2x.png */; };
+		5F191C73FB597DF6C896410C /* MapLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F229C07CCFB0CFEBD70F68 /* MapLayerViewController.m */; };
+		5FE02FFF868D15D8D69236E4 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2729CB24AF1A2D245CD886 /* CameraViewController.m */; };
+		610789D3FB759648F9F8BBC7 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DFE1BF52A3A8AFFF379322 /* CoreFoundation.framework */; };
+		648A26F563E92F7347BDBC0B /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A56AF9AA60B75EF16CE3EF8C /* Default-Portrait~ipad.png */; };
+		65E4F9EAD1A0D2F4D7BE77E7 /* step8.png in Resources */ = {isa = PBXBuildFile; fileRef = E8CF929DF33D172F36F845E3 /* step8.png */; };
+		65F931A74A68494B47C9CC89 /* step3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D2F332D6F2FB20FE11DFB6E /* step3.png */; };
+		66435DF713579F6DED8538B4 /* step1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC53293C94A672B4C62AD559 /* step1@2x.png */; };
+		66C31DEBF878BF6C4C174807 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C04CF121E2CAC61D549125 /* CoreText.framework */; };
+		694EBC1D9DF39AADFC8439A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9926C6844E111CB23EF2E80 /* Foundation.framework */; };
+		6B128E68A1D66C66638DFC20 /* AnimatedCurrentLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933F14F944559A5D5538023D /* AnimatedCurrentLocationViewController.m */; };
+		6E3AF50C5E4333E9BD14FFEC /* step2.png in Resources */ = {isa = PBXBuildFile; fileRef = D83F65E0A08406E055A906B0 /* step2.png */; };
+		712D2D39589F275AE724F700 /* step8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCCC58E7443B387046306EEF /* step8@2x.png */; };
+		71B70A1D43B67A898E04EFBD /* australia.png in Resources */ = {isa = PBXBuildFile; fileRef = EA55E63E3ECB92756B8A8854 /* australia.png */; };
+		74D494271004E377E2FC623D /* sdkdemos_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD181A33530788C065AA2D90 /* sdkdemos_icon@2x.png */; };
+		765DF8255C6307EF53404A6C /* step5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1A74AB0EFA8C78AF23E564 /* step5.png */; };
+		7C12E74463D64B5EA5C8FA2E /* step3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14A1E50F98F1EA56590AA120 /* step3@2x.png */; };
+		7EF0396A8F94EA20EFA0CCF4 /* MapTypesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3C1FEA265C2BC44CFFB4BD /* MapTypesViewController.m */; };
+		8263F1F9AB8E82749820A7D7 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F353004786E58271D76683E /* Default-Landscape~ipad.png */; };
+		85A3800B5C4D9D0010B55EB3 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D03EB3995F5EF92504D8E44F /* Default-Portrait@2x~ipad.png */; };
+		8B78DCF58E3C74416B9D7DBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9285758C5E07413BA20C8840 /* UIKit.framework */; };
+		8C6DBADFF2C9998E4B9BC493 /* australia-large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D94F429262C3A09166D73F /* australia-large@2x.png */; };
+		8D882292F546D2764DD22F7C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0372FAEB924D0ADD012FBDFE /* Default@2x.png */; };
+		8FFF3BF008786EB18B043A1D /* BasicMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4E139EA9FAA0D6A639CE6 /* BasicMapViewController.m */; };
+		92DA672684EB148471D4B470 /* spitfire@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 550E6B03BFE321336D066223 /* spitfire@2x.png */; };
+		9718948777B77D4C29AE4F82 /* step7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7AB12C7756274D40E649762 /* step7@2x.png */; };
+		97E682BDF42E5A963F6A08DD /* step6.png in Resources */ = {isa = PBXBuildFile; fileRef = 359EF8FC1D5600228CFFBF4D /* step6.png */; };
+		9DE2E04FD53AF8CEE1F69120 /* sdkdemos_icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F33C1C90D61AD0E2B502215 /* sdkdemos_icon-72@2x.png */; };
+		A41B88609BD8C3D1E631F95A /* Samples.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F8041B5649C26BCE75231 /* Samples.m */; };
+		A461533F4CF4E4DB8DB2F425 /* h1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3CF28401B594ADE426E656 /* h1@2x.png */; };
+		A46A7C7A95F1F728C1A8F025 /* MarkerLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB08565AAF1A341BC7D2A61 /* MarkerLayerViewController.m */; };
+		AA08207A192B904100D19F09 /* MarkerInfoWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA082079192B904100D19F09 /* MarkerInfoWindowViewController.m */; };
+		AAC5CD0618D3A22600F265D0 /* MapKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC5CD0518D3A22600F265D0 /* MapKitViewController.m */; };
+		AAC5CD0818D3A2B100F265D0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC5CD0718D3A2B100F265D0 /* MapKit.framework */; };
+		AAE95DB218D756CB00A7DC7E /* MapKitOverlaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE95DB118D756CB00A7DC7E /* MapKitOverlaysViewController.m */; };
+		AAE95DB518D75CF200A7DC7E /* MapKitMapTypesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE95DB418D75CF200A7DC7E /* MapKitMapTypesViewController.m */; };
+		AAE95DB818D7725700A7DC7E /* MapKitTileLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE95DB718D7725700A7DC7E /* MapKitTileLayerViewController.m */; };
+		AAE95DBE18D79FDE00A7DC7E /* GridTileOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE95DBD18D79FDE00A7DC7E /* GridTileOverlay.m */; };
+		AECA6B0B0678191655B0C3B2 /* x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 487E4999CFF757EA18C569D8 /* x29.png */; };
+		AF2EC94FF3224A1038A17704 /* aeroplane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 799CC7F35C34DAA014613DDF /* aeroplane@2x.png */; };
+		AFDF06A4DBF8F9BFFF79B062 /* IndoorMuseumNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAAD985B0FF3AF55E964A33 /* IndoorMuseumNavigationViewController.m */; };
+		B3A5E5660B46B03D0450EC85 /* sdkdemos_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD99D73AD66B03243C670572 /* sdkdemos_icon.png */; };
+		B44713D8E88E07A8E366A281 /* GroundOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7A194DAB9B544294D7A2D0 /* GroundOverlayViewController.m */; };
+		B5540037064E6EB098D236C2 /* popup_santa.png in Resources */ = {isa = PBXBuildFile; fileRef = 85288BF143D609A7145A7846 /* popup_santa.png */; };
+		B7D13C1B54C9D045F63EFB21 /* SDKDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC5186C29703467E4C2ED80 /* SDKDemoAppDelegate.m */; };
+		B92BCB66951396138F87274B /* TrafficMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6F7D665C6DD4328894967 /* TrafficMapViewController.m */; };
+		BC50B5FFC022E86F9874351E /* boat.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA08AB86BAE0FBBB8B3705F /* boat.png */; };
+		BE69C8220E7705F65843966D /* SDKDemoMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031103FAE4E394EA78895993 /* SDKDemoMasterViewController.m */; };
+		C0A1B1EEFC2C0EE2A3BD1EDB /* sdkdemos_icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 31DE8BA62A492FBC67E923AD /* sdkdemos_icon-72.png */; };
+		C214316A632180FE25307C6E /* step5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7385EE81D06D3C1BD826B7C5 /* step5@2x.png */; };
+		C23B2E6EE94CD11A13CE30D6 /* libobjc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F5EF3ED006A948BCC2BF82 /* libobjc.dylib */; };
+		C2BF9B4733D4A5DC450D1B67 /* glow-marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85109740028667AB1646AC2D /* glow-marker@2x.png */; };
+		C50CC1EFE4174BD3AC09862C /* step2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CBB9D63F29447E8C3C06F /* step2@2x.png */; };
+		C50EF6753B1D9B900A0975A8 /* VisibleRegionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DABC6731995E50EBF60E82DA /* VisibleRegionViewController.m */; };
+		C51B014D04033D99F91AE8C6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4152CBF14080E0C84DFD6613 /* SystemConfiguration.framework */; };
+		C8EE68BA6BC8E824C776A9F4 /* FixedPanoramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAA14F70E24A8E44326BBAE /* FixedPanoramaViewController.m */; };
+		C9FC8A4B15E0276E9E07F23E /* PanoramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBB2837C3A8ADB3D5191304 /* PanoramaViewController.m */; };
+		CD47D11E8AAD9788EAA0B0FC /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FA940308742FE4A8E2ACB6DB /* Default-Landscape@2x~ipad.png */; };
+		CD82FF9613BC518FEFEA7C1E /* voyager.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EC4132AB51E1500FF16E4C5 /* voyager.png */; };
+		CE2552FE6C7CF28F3FDE915C /* IndoorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6999063F311237F673B8B0 /* IndoorViewController.m */; };
+		D12FD7E42BB6B369625CCAF1 /* glow-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95ACF5DD497E15A0B746DF /* glow-marker.png */; };
+		D63117583BEBEFBE3B7E2AF8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38AE667ACADB5627CF67973 /* CoreLocation.framework */; };
+		DCA0DBACC270CD0C8BB5676E /* TileLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE18F2AE053B9A1DB19C5C /* TileLayerViewController.m */; };
+		DE1A6F51303833E3EC465FE8 /* australia-large.png in Resources */ = {isa = PBXBuildFile; fileRef = 54743FFF10003AA647D1654F /* australia-large.png */; };
+		E37D612EAAD98A8AB319DD57 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77EA8532CD15A6B5E800415E /* Default-568h@2x.png */; };
+		E4268A5F20F925F1047C47F4 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6ED0C99E84A5FE46148309 /* libicucore.dylib */; };
+		EB790A29E7CA34A31B7D03C5 /* step7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3628691A5936DDD1821A622B /* step7.png */; };
+		EE73D9FFCA38C1FDABF5D78E /* boat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F50C2BAD0B000697EBECCE /* boat@2x.png */; };
+		F5B78CF0D75AE45B35961B63 /* bulgaria-large.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB73A280D8FE0A1D2C054C8 /* bulgaria-large.png */; };
+		F63A3474E9273CC4BEB8C712 /* step4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CBE24F5F8C7DF19AE8452C /* step4@2x.png */; };
+		F874A504DD7FA277C6F74831 /* h1.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B0EFEC1C69A989B6E84744 /* h1.png */; };
+		FF0E77806B17A630A320008C /* newark_nj_1922.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72FF2F70BA1B0073BE1F375F /* newark_nj_1922.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		006739C6096E6B69D83F4A03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SDKDemos/main.m; sourceTree = "<group>"; };
+		031103FAE4E394EA78895993 /* SDKDemoMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SDKDemoMasterViewController.m; path = SDKDemos/SDKDemoMasterViewController.m; sourceTree = "<group>"; };
+		0372FAEB924D0ADD012FBDFE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0416087FE83DCD914CF69FA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		043F8041B5649C26BCE75231 /* Samples.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Samples.m; sourceTree = "<group>"; };
+		09F0DD5C27A815E1A9720747 /* TrafficMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrafficMapViewController.h; sourceTree = "<group>"; };
+		0B6999063F311237F673B8B0 /* IndoorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndoorViewController.m; sourceTree = "<group>"; };
+		0BA108F4D0C3BDA34CE54180 /* GestureControlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureControlViewController.m; sourceTree = "<group>"; };
+		0F33C1C90D61AD0E2B502215 /* sdkdemos_icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sdkdemos_icon-72@2x.png"; sourceTree = "<group>"; };
+		124B199908A64B1EE958F3CA /* x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x29@2x.png"; sourceTree = "<group>"; };
+		14A1E50F98F1EA56590AA120 /* step3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step3@2x.png"; sourceTree = "<group>"; };
+		15F93E8BE938118367B428AA /* MarkersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkersViewController.h; sourceTree = "<group>"; };
+		193951C11D1549E7701FFC40 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		1A597E83DFFF77F1EBD76B64 /* museum-exhibits.json */ = {isa = PBXFileReference; lastKnownFileType = text; path = "museum-exhibits.json"; sourceTree = "<group>"; };
+		1BA8114B0A4CDC672F1CBD6F /* GeocoderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeocoderViewController.h; sourceTree = "<group>"; };
+		1F1D873627D847B5C1B099FC /* MarkerEventsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkerEventsViewController.m; sourceTree = "<group>"; };
+		2AB2A95CCD24024671158AD9 /* PanoramaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanoramaViewController.h; sourceTree = "<group>"; };
+		2E95ACF5DD497E15A0B746DF /* glow-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glow-marker.png"; sourceTree = "<group>"; };
+		31DE8BA62A492FBC67E923AD /* sdkdemos_icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sdkdemos_icon-72.png"; sourceTree = "<group>"; };
+		31F229C07CCFB0CFEBD70F68 /* MapLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapLayerViewController.m; sourceTree = "<group>"; };
+		3401A5B1795F7B7056A7F491 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		3449C03C22DABB720D80FF72 /* GestureControlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureControlViewController.h; sourceTree = "<group>"; };
+		359EF8FC1D5600228CFFBF4D /* step6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step6.png; sourceTree = "<group>"; };
+		3628691A5936DDD1821A622B /* step7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step7.png; sourceTree = "<group>"; };
+		394AF35F597FB89E9D6A1E3D /* MapZoomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapZoomViewController.h; sourceTree = "<group>"; };
+		3AAAD985B0FF3AF55E964A33 /* IndoorMuseumNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndoorMuseumNavigationViewController.m; sourceTree = "<group>"; };
+		3BD92F5F6AB10EDD9098A9DC /* GeocoderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeocoderViewController.m; sourceTree = "<group>"; };
+		3C1A74AB0EFA8C78AF23E564 /* step5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step5.png; sourceTree = "<group>"; };
+		3F1ABBF9B2E96BC488485119 /* track.json */ = {isa = PBXFileReference; lastKnownFileType = text; path = track.json; sourceTree = "<group>"; };
+		4152CBF14080E0C84DFD6613 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		429F95111FD1F8B8A1C16865 /* PolylinesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolylinesViewController.m; sourceTree = "<group>"; };
+		45580B3C558B48DD3359F2A1 /* MapZoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapZoomViewController.m; sourceTree = "<group>"; };
+		460EBDFBDFFE13DB517214A5 /* BasicMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicMapViewController.h; sourceTree = "<group>"; };
+		46FF553F45838251496245F9 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		487E4999CFF757EA18C569D8 /* x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x29.png; sourceTree = "<group>"; };
+		4BA4E139EA9FAA0D6A639CE6 /* BasicMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicMapViewController.m; sourceTree = "<group>"; };
+		4C29D1A0DA47D1691C6CE0A5 /* argentina-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "argentina-large.png"; sourceTree = "<group>"; };
+		4C3CBB9D63F29447E8C3C06F /* step2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step2@2x.png"; sourceTree = "<group>"; };
+		4D35CE548040C1EF3B8BD581 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4F353004786E58271D76683E /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		54743FFF10003AA647D1654F /* australia-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "australia-large.png"; sourceTree = "<group>"; };
+		550E6B03BFE321336D066223 /* spitfire@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spitfire@2x.png"; sourceTree = "<group>"; };
+		58B0EFEC1C69A989B6E84744 /* h1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h1.png; sourceTree = "<group>"; };
+		5977F6DB8B9BD6609BE664B0 /* TileLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TileLayerViewController.h; sourceTree = "<group>"; };
+		59940AD9F86687DEA94EDE8C /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		5AA08AB86BAE0FBBB8B3705F /* boat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boat.png; sourceTree = "<group>"; };
+		5EC5186C29703467E4C2ED80 /* SDKDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SDKDemoAppDelegate.m; path = SDKDemos/SDKDemoAppDelegate.m; sourceTree = "<group>"; };
+		5F3C1FEA265C2BC44CFFB4BD /* MapTypesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTypesViewController.m; sourceTree = "<group>"; };
+		62CBE24F5F8C7DF19AE8452C /* step4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step4@2x.png"; sourceTree = "<group>"; };
+		63B21B38E81405568CD36449 /* AnimatedCurrentLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatedCurrentLocationViewController.h; sourceTree = "<group>"; };
+		64888C52E2E272FEFE7C18AA /* StructuredGeocoderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StructuredGeocoderViewController.m; sourceTree = "<group>"; };
+		656D0083D388D030EA0C9E3E /* GoogleAndMapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleAndMapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6571C6FD38FB80E9657C6CF4 /* PolylinesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PolylinesViewController.h; sourceTree = "<group>"; };
+		6A37ED9FA16A22EFC586E32E /* MyLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLocationViewController.m; sourceTree = "<group>"; };
+		6D2F332D6F2FB20FE11DFB6E /* step3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step3.png; sourceTree = "<group>"; };
+		6DEE18F2AE053B9A1DB19C5C /* TileLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TileLayerViewController.m; sourceTree = "<group>"; };
+		72FF2F70BA1B0073BE1F375F /* newark_nj_1922.jpg */ = {isa = PBXFileReference; lastKnownFileType = text; path = newark_nj_1922.jpg; sourceTree = "<group>"; };
+		735DFE797020C7F09B21F773 /* CustomIndoorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomIndoorViewController.h; sourceTree = "<group>"; };
+		7385EE81D06D3C1BD826B7C5 /* step5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step5@2x.png"; sourceTree = "<group>"; };
+		74A9950FBE5A377D1EBB2230 /* SDKDemoMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKDemoMasterViewController.h; path = SDKDemos/SDKDemoMasterViewController.h; sourceTree = "<group>"; };
+		74F5EF3ED006A948BCC2BF82 /* libobjc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.dylib; path = usr/lib/libobjc.dylib; sourceTree = SDKROOT; };
+		75E000124A1962A304CEAAB8 /* aeroplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aeroplane.png; sourceTree = "<group>"; };
+		778A178288F1E9593A03C6DB /* Samples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Samples.h; sourceTree = "<group>"; };
+		778FAE1359A6570015F495EA /* GroundOverlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroundOverlayViewController.h; sourceTree = "<group>"; };
+		77EA8532CD15A6B5E800415E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		78C6F7D665C6DD4328894967 /* TrafficMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrafficMapViewController.m; sourceTree = "<group>"; };
+		799CC7F35C34DAA014613DDF /* aeroplane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aeroplane@2x.png"; sourceTree = "<group>"; };
+		79A9E14215E011A6DFD2B0BA /* GradientPolylinesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientPolylinesViewController.h; sourceTree = "<group>"; };
+		7B47995B2A94F831E8B7DD0F /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		7B4AF795B18672B900DE3568 /* MarkerEventsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkerEventsViewController.h; sourceTree = "<group>"; };
+		7BBAEFAF2820EDE4EBA5D943 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7BFD80C8485C48F2C90C85A8 /* GradientPolylinesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientPolylinesViewController.m; sourceTree = "<group>"; };
+		7EC4132AB51E1500FF16E4C5 /* voyager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voyager.png; sourceTree = "<group>"; };
+		81B8039817FFB9A398E1158B /* DoubleMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleMapViewController.h; sourceTree = "<group>"; };
+		837C86EA9AC87A3A5EA16145 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		842A2FB43838968D313B1783 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		85109740028667AB1646AC2D /* glow-marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glow-marker@2x.png"; sourceTree = "<group>"; };
+		85288BF143D609A7145A7846 /* popup_santa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popup_santa.png; sourceTree = "<group>"; };
+		88F50C2BAD0B000697EBECCE /* boat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boat@2x.png"; sourceTree = "<group>"; };
+		8B3EA327A271CA6A64D117A6 /* FitBoundsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitBoundsViewController.m; sourceTree = "<group>"; };
+		8EB73A280D8FE0A1D2C054C8 /* bulgaria-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bulgaria-large.png"; sourceTree = "<group>"; };
+		8F6ED0C99E84A5FE46148309 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		90258FFF395A5E25CCEC3AB0 /* PolygonsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolygonsViewController.m; sourceTree = "<group>"; };
+		9285758C5E07413BA20C8840 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		933F14F944559A5D5538023D /* AnimatedCurrentLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedCurrentLocationViewController.m; sourceTree = "<group>"; };
+		97284C2589969381B1F2BF65 /* botswana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botswana.png; sourceTree = "<group>"; };
+		9820B8516BCB7CD9A6553720 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		989BBAF7DF1CD21CA2F9CC0E /* FixedPanoramaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixedPanoramaViewController.h; sourceTree = "<group>"; };
+		98A5F219881F5A5612905ABC /* step4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step4.png; sourceTree = "<group>"; };
+		9A2729CB24AF1A2D245CD886 /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		9AB08565AAF1A341BC7D2A61 /* MarkerLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkerLayerViewController.m; sourceTree = "<group>"; };
+		9C2D5258F1365BCD57029138 /* MarkersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkersViewController.m; sourceTree = "<group>"; };
+		A38AE667ACADB5627CF67973 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A48DE20E9EF0EFE5F9656B51 /* SDKDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKDemoAppDelegate.h; path = SDKDemos/SDKDemoAppDelegate.h; sourceTree = "<group>"; };
+		A56AF9AA60B75EF16CE3EF8C /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		A578CA16809EBB3047B3C573 /* DoubleMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleMapViewController.m; sourceTree = "<group>"; };
+		A849C0D00CED5DEF33AC6844 /* MapLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapLayerViewController.h; sourceTree = "<group>"; };
+		AA082078192B904100D19F09 /* MarkerInfoWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerInfoWindowViewController.h; sourceTree = "<group>"; };
+		AA082079192B904100D19F09 /* MarkerInfoWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerInfoWindowViewController.m; sourceTree = "<group>"; };
+		AAA8B2B19FA46102744D14EF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		AAC5CD0418D3A22600F265D0 /* MapKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapKitViewController.h; sourceTree = "<group>"; };
+		AAC5CD0518D3A22600F265D0 /* MapKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapKitViewController.m; sourceTree = "<group>"; };
+		AAC5CD0718D3A2B100F265D0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AAE95DB018D756CB00A7DC7E /* MapKitOverlaysViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapKitOverlaysViewController.h; sourceTree = "<group>"; };
+		AAE95DB118D756CB00A7DC7E /* MapKitOverlaysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapKitOverlaysViewController.m; sourceTree = "<group>"; };
+		AAE95DB318D75CF200A7DC7E /* MapKitMapTypesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapKitMapTypesViewController.h; sourceTree = "<group>"; };
+		AAE95DB418D75CF200A7DC7E /* MapKitMapTypesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapKitMapTypesViewController.m; sourceTree = "<group>"; };
+		AAE95DB618D7725700A7DC7E /* MapKitTileLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapKitTileLayerViewController.h; sourceTree = "<group>"; };
+		AAE95DB718D7725700A7DC7E /* MapKitTileLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapKitTileLayerViewController.m; sourceTree = "<group>"; };
+		AAE95DBC18D79FDE00A7DC7E /* GridTileOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridTileOverlay.h; sourceTree = "<group>"; };
+		AAE95DBD18D79FDE00A7DC7E /* GridTileOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridTileOverlay.m; sourceTree = "<group>"; };
+		AB330C8620876E40BEC85968 /* voyager@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voyager@2x.png"; sourceTree = "<group>"; };
+		ABAA14F70E24A8E44326BBAE /* FixedPanoramaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FixedPanoramaViewController.m; sourceTree = "<group>"; };
+		AC4F4FF0F15305FE7DB327D5 /* MyLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLocationViewController.h; sourceTree = "<group>"; };
+		ADB6F5B2F34C4461E2AFF686 /* CustomMarkersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomMarkersViewController.h; sourceTree = "<group>"; };
+		B1FA4EC4A89767E10B655CB0 /* MarkerLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkerLayerViewController.h; sourceTree = "<group>"; };
+		B247AC68273A6B9F29ED6CDC /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B6D2F25F8F4B1159C707B4A2 /* IndoorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndoorViewController.h; sourceTree = "<group>"; };
+		BA7783E4FDFA7455B4EF6174 /* PolygonsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PolygonsViewController.h; sourceTree = "<group>"; };
+		BAF511F09C737A22E0A76E59 /* bulgaria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bulgaria.png; sourceTree = "<group>"; };
+		BD36A58B321268BB8E267874 /* CustomMarkersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomMarkersViewController.m; sourceTree = "<group>"; };
+		BD7A194DAB9B544294D7A2D0 /* GroundOverlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroundOverlayViewController.m; sourceTree = "<group>"; };
+		C07CD02A92489C92FC822C3A /* SDKDemoAPIKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKDemoAPIKey.h; path = SDKDemos/SDKDemoAPIKey.h; sourceTree = "<group>"; };
+		C4D94F429262C3A09166D73F /* australia-large@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "australia-large@2x.png"; sourceTree = "<group>"; };
+		C7AB12C7756274D40E649762 /* step7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step7@2x.png"; sourceTree = "<group>"; };
+		C9926C6844E111CB23EF2E80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD99D73AD66B03243C670572 /* sdkdemos_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sdkdemos_icon.png; sourceTree = "<group>"; };
+		D03EB3995F5EF92504D8E44F /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		D05C1274204C92F13ABD8599 /* step6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step6@2x.png"; sourceTree = "<group>"; };
+		D1B2675ECA97CB1F5D0F5F88 /* MapTypesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapTypesViewController.h; sourceTree = "<group>"; };
+		D2DFE1BF52A3A8AFFF379322 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D619B3D989A533F358F1D077 /* botswana-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botswana-large.png"; sourceTree = "<group>"; };
+		D7B0E6B7E378BF2301E42C6A /* StructuredGeocoderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StructuredGeocoderViewController.h; sourceTree = "<group>"; };
+		D81C6119C4C7DE07FB42F86D /* popup_santa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popup_santa@2x.png"; sourceTree = "<group>"; };
+		D83F65E0A08406E055A906B0 /* step2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step2.png; sourceTree = "<group>"; };
+		D8C04CF121E2CAC61D549125 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		DABC6731995E50EBF60E82DA /* VisibleRegionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisibleRegionViewController.m; sourceTree = "<group>"; };
+		DBBB2837C3A8ADB3D5191304 /* PanoramaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanoramaViewController.m; sourceTree = "<group>"; };
+		DC53293C94A672B4C62AD559 /* step1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step1@2x.png"; sourceTree = "<group>"; };
+		E0D4EAD84FB1F606F6016E0B /* VisibleRegionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisibleRegionViewController.h; sourceTree = "<group>"; };
+		E4B1CC9979AFE466B59A9AC4 /* IndoorMuseumNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndoorMuseumNavigationViewController.h; sourceTree = "<group>"; };
+		E8CF929DF33D172F36F845E3 /* step8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step8.png; sourceTree = "<group>"; };
+		EA55E63E3ECB92756B8A8854 /* australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = australia.png; sourceTree = "<group>"; };
+		EB1CD2C01411A35969C872BA /* CustomIndoorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomIndoorViewController.m; sourceTree = "<group>"; };
+		EBDAAD248E528C9D828A2878 /* argentina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = argentina.png; sourceTree = "<group>"; };
+		EF3CF28401B594ADE426E656 /* h1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "h1@2x.png"; sourceTree = "<group>"; };
+		FA940308742FE4A8E2ACB6DB /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		FAF66F7D7BC732C1A5A896B0 /* SDKDemos.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = SDKDemos.gyp; sourceTree = "<group>"; };
+		FCCC58E7443B387046306EEF /* step8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step8@2x.png"; sourceTree = "<group>"; };
+		FD181A33530788C065AA2D90 /* sdkdemos_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sdkdemos_icon@2x.png"; sourceTree = "<group>"; };
+		FD40AB7623BD1C9A81EA9239 /* FitBoundsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FitBoundsViewController.h; sourceTree = "<group>"; };
+		FE2B3D4C04A8916BC8027A72 /* spitfire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spitfire.png; sourceTree = "<group>"; };
+		FE7C2DA207359F759D081156 /* step1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F427D7DE56744A968901ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC5CD0818D3A2B100F265D0 /* MapKit.framework in Frameworks */,
+				C23B2E6EE94CD11A13CE30D6 /* libobjc.dylib in Frameworks */,
+				610789D3FB759648F9F8BBC7 /* CoreFoundation.framework in Frameworks */,
+				694EBC1D9DF39AADFC8439A7 /* Foundation.framework in Frameworks */,
+				1AFC6570D545FC38BB8C322F /* CoreGraphics.framework in Frameworks */,
+				8B78DCF58E3C74416B9D7DBA /* UIKit.framework in Frameworks */,
+				5845F7FA68488B60665B428C /* AVFoundation.framework in Frameworks */,
+				42719A8092E0ABC1D99AFF9A /* CoreData.framework in Frameworks */,
+				D63117583BEBEFBE3B7E2AF8 /* CoreLocation.framework in Frameworks */,
+				66C31DEBF878BF6C4C174807 /* CoreText.framework in Frameworks */,
+				59A210B879A25213DDCF3F3B /* GLKit.framework in Frameworks */,
+				338EE78A3EEC20EFAA09A0C5 /* ImageIO.framework in Frameworks */,
+				5820428B1DE5AFB054FB571C /* libc++.dylib in Frameworks */,
+				E4268A5F20F925F1047C47F4 /* libicucore.dylib in Frameworks */,
+				0A7CB2C3E7FE44D1F59D1DC1 /* libz.dylib in Frameworks */,
+				146522ADF5E4653064507E24 /* OpenGLES.framework in Frameworks */,
+				0981402CB32A9043C27B1831 /* QuartzCore.framework in Frameworks */,
+				C51B014D04033D99F91AE8C6 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22E941AA2748F9E4D4D6287C /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				63B21B38E81405568CD36449 /* AnimatedCurrentLocationViewController.h */,
+				933F14F944559A5D5538023D /* AnimatedCurrentLocationViewController.m */,
+				460EBDFBDFFE13DB517214A5 /* BasicMapViewController.h */,
+				4BA4E139EA9FAA0D6A639CE6 /* BasicMapViewController.m */,
+				59940AD9F86687DEA94EDE8C /* CameraViewController.h */,
+				9A2729CB24AF1A2D245CD886 /* CameraViewController.m */,
+				735DFE797020C7F09B21F773 /* CustomIndoorViewController.h */,
+				EB1CD2C01411A35969C872BA /* CustomIndoorViewController.m */,
+				ADB6F5B2F34C4461E2AFF686 /* CustomMarkersViewController.h */,
+				BD36A58B321268BB8E267874 /* CustomMarkersViewController.m */,
+				81B8039817FFB9A398E1158B /* DoubleMapViewController.h */,
+				A578CA16809EBB3047B3C573 /* DoubleMapViewController.m */,
+				FD40AB7623BD1C9A81EA9239 /* FitBoundsViewController.h */,
+				8B3EA327A271CA6A64D117A6 /* FitBoundsViewController.m */,
+				989BBAF7DF1CD21CA2F9CC0E /* FixedPanoramaViewController.h */,
+				ABAA14F70E24A8E44326BBAE /* FixedPanoramaViewController.m */,
+				1BA8114B0A4CDC672F1CBD6F /* GeocoderViewController.h */,
+				3BD92F5F6AB10EDD9098A9DC /* GeocoderViewController.m */,
+				3449C03C22DABB720D80FF72 /* GestureControlViewController.h */,
+				0BA108F4D0C3BDA34CE54180 /* GestureControlViewController.m */,
+				79A9E14215E011A6DFD2B0BA /* GradientPolylinesViewController.h */,
+				7BFD80C8485C48F2C90C85A8 /* GradientPolylinesViewController.m */,
+				AAE95DBC18D79FDE00A7DC7E /* GridTileOverlay.h */,
+				AAE95DBD18D79FDE00A7DC7E /* GridTileOverlay.m */,
+				778FAE1359A6570015F495EA /* GroundOverlayViewController.h */,
+				BD7A194DAB9B544294D7A2D0 /* GroundOverlayViewController.m */,
+				E4B1CC9979AFE466B59A9AC4 /* IndoorMuseumNavigationViewController.h */,
+				3AAAD985B0FF3AF55E964A33 /* IndoorMuseumNavigationViewController.m */,
+				B6D2F25F8F4B1159C707B4A2 /* IndoorViewController.h */,
+				0B6999063F311237F673B8B0 /* IndoorViewController.m */,
+				AAE95DB318D75CF200A7DC7E /* MapKitMapTypesViewController.h */,
+				AAE95DB418D75CF200A7DC7E /* MapKitMapTypesViewController.m */,
+				AAE95DB018D756CB00A7DC7E /* MapKitOverlaysViewController.h */,
+				AAE95DB118D756CB00A7DC7E /* MapKitOverlaysViewController.m */,
+				AAE95DB618D7725700A7DC7E /* MapKitTileLayerViewController.h */,
+				AAE95DB718D7725700A7DC7E /* MapKitTileLayerViewController.m */,
+				AAC5CD0418D3A22600F265D0 /* MapKitViewController.h */,
+				AAC5CD0518D3A22600F265D0 /* MapKitViewController.m */,
+				A849C0D00CED5DEF33AC6844 /* MapLayerViewController.h */,
+				31F229C07CCFB0CFEBD70F68 /* MapLayerViewController.m */,
+				D1B2675ECA97CB1F5D0F5F88 /* MapTypesViewController.h */,
+				5F3C1FEA265C2BC44CFFB4BD /* MapTypesViewController.m */,
+				394AF35F597FB89E9D6A1E3D /* MapZoomViewController.h */,
+				45580B3C558B48DD3359F2A1 /* MapZoomViewController.m */,
+				7B4AF795B18672B900DE3568 /* MarkerEventsViewController.h */,
+				1F1D873627D847B5C1B099FC /* MarkerEventsViewController.m */,
+				AA082078192B904100D19F09 /* MarkerInfoWindowViewController.h */,
+				AA082079192B904100D19F09 /* MarkerInfoWindowViewController.m */,
+				B1FA4EC4A89767E10B655CB0 /* MarkerLayerViewController.h */,
+				9AB08565AAF1A341BC7D2A61 /* MarkerLayerViewController.m */,
+				15F93E8BE938118367B428AA /* MarkersViewController.h */,
+				9C2D5258F1365BCD57029138 /* MarkersViewController.m */,
+				AC4F4FF0F15305FE7DB327D5 /* MyLocationViewController.h */,
+				6A37ED9FA16A22EFC586E32E /* MyLocationViewController.m */,
+				2AB2A95CCD24024671158AD9 /* PanoramaViewController.h */,
+				DBBB2837C3A8ADB3D5191304 /* PanoramaViewController.m */,
+				BA7783E4FDFA7455B4EF6174 /* PolygonsViewController.h */,
+				90258FFF395A5E25CCEC3AB0 /* PolygonsViewController.m */,
+				6571C6FD38FB80E9657C6CF4 /* PolylinesViewController.h */,
+				429F95111FD1F8B8A1C16865 /* PolylinesViewController.m */,
+				778A178288F1E9593A03C6DB /* Samples.h */,
+				043F8041B5649C26BCE75231 /* Samples.m */,
+				D7B0E6B7E378BF2301E42C6A /* StructuredGeocoderViewController.h */,
+				64888C52E2E272FEFE7C18AA /* StructuredGeocoderViewController.m */,
+				5977F6DB8B9BD6609BE664B0 /* TileLayerViewController.h */,
+				6DEE18F2AE053B9A1DB19C5C /* TileLayerViewController.m */,
+				09F0DD5C27A815E1A9720747 /* TrafficMapViewController.h */,
+				78C6F7D665C6DD4328894967 /* TrafficMapViewController.m */,
+				E0D4EAD84FB1F606F6016E0B /* VisibleRegionViewController.h */,
+				DABC6731995E50EBF60E82DA /* VisibleRegionViewController.m */,
+			);
+			name = Samples;
+			path = SDKDemos/Samples;
+			sourceTree = "<group>";
+		};
+		3051D25A25015F6884ADD1C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69EBDE721FDFDCCDBB9DCC7A /* Images */,
+				5F82E697DB805D8F5C7C7129 /* Museum-Icons */,
+				75E000124A1962A304CEAAB8 /* aeroplane.png */,
+				799CC7F35C34DAA014613DDF /* aeroplane@2x.png */,
+				4C29D1A0DA47D1691C6CE0A5 /* argentina-large.png */,
+				EBDAAD248E528C9D828A2878 /* argentina.png */,
+				3401A5B1795F7B7056A7F491 /* arrow.png */,
+				46FF553F45838251496245F9 /* arrow@2x.png */,
+				54743FFF10003AA647D1654F /* australia-large.png */,
+				C4D94F429262C3A09166D73F /* australia-large@2x.png */,
+				EA55E63E3ECB92756B8A8854 /* australia.png */,
+				5AA08AB86BAE0FBBB8B3705F /* boat.png */,
+				88F50C2BAD0B000697EBECCE /* boat@2x.png */,
+				D619B3D989A533F358F1D077 /* botswana-large.png */,
+				97284C2589969381B1F2BF65 /* botswana.png */,
+				8EB73A280D8FE0A1D2C054C8 /* bulgaria-large.png */,
+				BAF511F09C737A22E0A76E59 /* bulgaria.png */,
+				2E95ACF5DD497E15A0B746DF /* glow-marker.png */,
+				85109740028667AB1646AC2D /* glow-marker@2x.png */,
+				1A597E83DFFF77F1EBD76B64 /* museum-exhibits.json */,
+				72FF2F70BA1B0073BE1F375F /* newark_nj_1922.jpg */,
+				85288BF143D609A7145A7846 /* popup_santa.png */,
+				D81C6119C4C7DE07FB42F86D /* popup_santa@2x.png */,
+				FE7C2DA207359F759D081156 /* step1.png */,
+				DC53293C94A672B4C62AD559 /* step1@2x.png */,
+				D83F65E0A08406E055A906B0 /* step2.png */,
+				4C3CBB9D63F29447E8C3C06F /* step2@2x.png */,
+				6D2F332D6F2FB20FE11DFB6E /* step3.png */,
+				14A1E50F98F1EA56590AA120 /* step3@2x.png */,
+				98A5F219881F5A5612905ABC /* step4.png */,
+				62CBE24F5F8C7DF19AE8452C /* step4@2x.png */,
+				3C1A74AB0EFA8C78AF23E564 /* step5.png */,
+				7385EE81D06D3C1BD826B7C5 /* step5@2x.png */,
+				359EF8FC1D5600228CFFBF4D /* step6.png */,
+				D05C1274204C92F13ABD8599 /* step6@2x.png */,
+				3628691A5936DDD1821A622B /* step7.png */,
+				C7AB12C7756274D40E649762 /* step7@2x.png */,
+				E8CF929DF33D172F36F845E3 /* step8.png */,
+				FCCC58E7443B387046306EEF /* step8@2x.png */,
+				3F1ABBF9B2E96BC488485119 /* track.json */,
+			);
+			name = Resources;
+			path = SDKDemos/Resources;
+			sourceTree = "<group>";
+		};
+		5F82E697DB805D8F5C7C7129 /* Museum-Icons */ = {
+			isa = PBXGroup;
+			children = (
+				58B0EFEC1C69A989B6E84744 /* h1.png */,
+				EF3CF28401B594ADE426E656 /* h1@2x.png */,
+				FE2B3D4C04A8916BC8027A72 /* spitfire.png */,
+				550E6B03BFE321336D066223 /* spitfire@2x.png */,
+				7EC4132AB51E1500FF16E4C5 /* voyager.png */,
+				AB330C8620876E40BEC85968 /* voyager@2x.png */,
+				487E4999CFF757EA18C569D8 /* x29.png */,
+				124B199908A64B1EE958F3CA /* x29@2x.png */,
+			);
+			path = "Museum-Icons";
+			sourceTree = "<group>";
+		};
+		69EBDE721FDFDCCDBB9DCC7A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				77EA8532CD15A6B5E800415E /* Default-568h@2x.png */,
+				FA940308742FE4A8E2ACB6DB /* Default-Landscape@2x~ipad.png */,
+				4F353004786E58271D76683E /* Default-Landscape~ipad.png */,
+				D03EB3995F5EF92504D8E44F /* Default-Portrait@2x~ipad.png */,
+				A56AF9AA60B75EF16CE3EF8C /* Default-Portrait~ipad.png */,
+				842A2FB43838968D313B1783 /* Default.png */,
+				0372FAEB924D0ADD012FBDFE /* Default@2x.png */,
+				31DE8BA62A492FBC67E923AD /* sdkdemos_icon-72.png */,
+				0F33C1C90D61AD0E2B502215 /* sdkdemos_icon-72@2x.png */,
+				CD99D73AD66B03243C670572 /* sdkdemos_icon.png */,
+				FD181A33530788C065AA2D90 /* sdkdemos_icon@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6B58453C62AFCD886F0EED66 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3051D25A25015F6884ADD1C3 /* Resources */,
+				22E941AA2748F9E4D4D6287C /* Samples */,
+				C07CD02A92489C92FC822C3A /* SDKDemoAPIKey.h */,
+				A48DE20E9EF0EFE5F9656B51 /* SDKDemoAppDelegate.h */,
+				5EC5186C29703467E4C2ED80 /* SDKDemoAppDelegate.m */,
+				74A9950FBE5A377D1EBB2230 /* SDKDemoMasterViewController.h */,
+				031103FAE4E394EA78895993 /* SDKDemoMasterViewController.m */,
+				006739C6096E6B69D83F4A03 /* main.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		979C0F71660CE8D4F2DB477E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAC5CD0718D3A2B100F265D0 /* MapKit.framework */,
+				837C86EA9AC87A3A5EA16145 /* AVFoundation.framework */,
+				9820B8516BCB7CD9A6553720 /* CoreData.framework */,
+				D2DFE1BF52A3A8AFFF379322 /* CoreFoundation.framework */,
+				0416087FE83DCD914CF69FA9 /* CoreGraphics.framework */,
+				A38AE667ACADB5627CF67973 /* CoreLocation.framework */,
+				D8C04CF121E2CAC61D549125 /* CoreText.framework */,
+				C9926C6844E111CB23EF2E80 /* Foundation.framework */,
+				7B47995B2A94F831E8B7DD0F /* GLKit.framework */,
+				B247AC68273A6B9F29ED6CDC /* ImageIO.framework */,
+				7BBAEFAF2820EDE4EBA5D943 /* OpenGLES.framework */,
+				4D35CE548040C1EF3B8BD581 /* QuartzCore.framework */,
+				4152CBF14080E0C84DFD6613 /* SystemConfiguration.framework */,
+				9285758C5E07413BA20C8840 /* UIKit.framework */,
+				193951C11D1549E7701FFC40 /* libc++.dylib */,
+				8F6ED0C99E84A5FE46148309 /* libicucore.dylib */,
+				74F5EF3ED006A948BCC2BF82 /* libobjc.dylib */,
+				AAA8B2B19FA46102744D14EF /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2C8628B55F950FE20E7137C = {
+			isa = PBXGroup;
+			children = (
+				6B58453C62AFCD886F0EED66 /* Source */,
+				979C0F71660CE8D4F2DB477E /* Frameworks */,
+				E432E4A5C2DA557A55565E67 /* Products */,
+				D7938F561BAB3DB37E038EF7 /* Build */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		D7938F561BAB3DB37E038EF7 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				FAF66F7D7BC732C1A5A896B0 /* SDKDemos.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		E432E4A5C2DA557A55565E67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				656D0083D388D030EA0C9E3E /* GoogleAndMapKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0A34C824BF91068571FB9C9 /* GoogleAndMapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 258F0E920477D8ADA8B68139 /* Build configuration list for PBXNativeTarget "GoogleAndMapKit" */;
+			buildPhases = (
+				ADA7B6829517252313848C86 /* Resources */,
+				2F23BF35CD9D8A7EBB7A3277 /* Sources */,
+				9F427D7DE56744A968901ED9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleAndMapKit;
+			productName = SDKDemos;
+			productReference = 656D0083D388D030EA0C9E3E /* GoogleAndMapKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0152C353C1C1C999BE34696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 3203C92569C9F50F18471A03 /* Build configuration list for PBXProject "GoogleAndMapKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2C8628B55F950FE20E7137C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0A34C824BF91068571FB9C9 /* GoogleAndMapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA7B6829517252313848C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3032EA8106BD7AF16F5DF259 /* aeroplane.png in Resources */,
+				AF2EC94FF3224A1038A17704 /* aeroplane@2x.png in Resources */,
+				340360BD9885D4B2CB1A1BA7 /* argentina-large.png in Resources */,
+				0272088458DBCF4512221124 /* argentina.png in Resources */,
+				3B3186C4C9EC35A5AAFFFBC8 /* arrow.png in Resources */,
+				5EE0D081F13A04EB04B9E16C /* arrow@2x.png in Resources */,
+				DE1A6F51303833E3EC465FE8 /* australia-large.png in Resources */,
+				8C6DBADFF2C9998E4B9BC493 /* australia-large@2x.png in Resources */,
+				71B70A1D43B67A898E04EFBD /* australia.png in Resources */,
+				BC50B5FFC022E86F9874351E /* boat.png in Resources */,
+				EE73D9FFCA38C1FDABF5D78E /* boat@2x.png in Resources */,
+				5028C7AC5D1F0B46933438E1 /* botswana-large.png in Resources */,
+				16BE74433024517B9B1C864B /* botswana.png in Resources */,
+				F5B78CF0D75AE45B35961B63 /* bulgaria-large.png in Resources */,
+				1153C9619E278B5BF37B88D6 /* bulgaria.png in Resources */,
+				D12FD7E42BB6B369625CCAF1 /* glow-marker.png in Resources */,
+				C2BF9B4733D4A5DC450D1B67 /* glow-marker@2x.png in Resources */,
+				E37D612EAAD98A8AB319DD57 /* Default-568h@2x.png in Resources */,
+				CD47D11E8AAD9788EAA0B0FC /* Default-Landscape@2x~ipad.png in Resources */,
+				8263F1F9AB8E82749820A7D7 /* Default-Landscape~ipad.png in Resources */,
+				85A3800B5C4D9D0010B55EB3 /* Default-Portrait@2x~ipad.png in Resources */,
+				648A26F563E92F7347BDBC0B /* Default-Portrait~ipad.png in Resources */,
+				3FB59BEC93080C8338B58C66 /* Default.png in Resources */,
+				8D882292F546D2764DD22F7C /* Default@2x.png in Resources */,
+				C0A1B1EEFC2C0EE2A3BD1EDB /* sdkdemos_icon-72.png in Resources */,
+				9DE2E04FD53AF8CEE1F69120 /* sdkdemos_icon-72@2x.png in Resources */,
+				B3A5E5660B46B03D0450EC85 /* sdkdemos_icon.png in Resources */,
+				74D494271004E377E2FC623D /* sdkdemos_icon@2x.png in Resources */,
+				F874A504DD7FA277C6F74831 /* h1.png in Resources */,
+				A461533F4CF4E4DB8DB2F425 /* h1@2x.png in Resources */,
+				41C7A1B602F1BAD1D790933C /* spitfire.png in Resources */,
+				92DA672684EB148471D4B470 /* spitfire@2x.png in Resources */,
+				CD82FF9613BC518FEFEA7C1E /* voyager.png in Resources */,
+				26C25B81838398AE6E5383FC /* voyager@2x.png in Resources */,
+				AECA6B0B0678191655B0C3B2 /* x29.png in Resources */,
+				2999EBF0E34D68F2AE416460 /* x29@2x.png in Resources */,
+				B5540037064E6EB098D236C2 /* popup_santa.png in Resources */,
+				05D1B14AD0FA288CA1B83460 /* popup_santa@2x.png in Resources */,
+				0FDE1F69BBDE93C2B512CC31 /* step1.png in Resources */,
+				66435DF713579F6DED8538B4 /* step1@2x.png in Resources */,
+				6E3AF50C5E4333E9BD14FFEC /* step2.png in Resources */,
+				C50CC1EFE4174BD3AC09862C /* step2@2x.png in Resources */,
+				65F931A74A68494B47C9CC89 /* step3.png in Resources */,
+				7C12E74463D64B5EA5C8FA2E /* step3@2x.png in Resources */,
+				4250F1986D027F8104E68F09 /* step4.png in Resources */,
+				F63A3474E9273CC4BEB8C712 /* step4@2x.png in Resources */,
+				765DF8255C6307EF53404A6C /* step5.png in Resources */,
+				C214316A632180FE25307C6E /* step5@2x.png in Resources */,
+				97E682BDF42E5A963F6A08DD /* step6.png in Resources */,
+				3DB2EDBBDE04807BD2988B53 /* step6@2x.png in Resources */,
+				EB790A29E7CA34A31B7D03C5 /* step7.png in Resources */,
+				9718948777B77D4C29AE4F82 /* step7@2x.png in Resources */,
+				65E4F9EAD1A0D2F4D7BE77E7 /* step8.png in Resources */,
+				712D2D39589F275AE724F700 /* step8@2x.png in Resources */,
+				FF0E77806B17A630A320008C /* newark_nj_1922.jpg in Resources */,
+				4EF00FDC67A0692CB38DCDF7 /* museum-exhibits.json in Resources */,
+				3957BC4AABB66FC0D89E6063 /* track.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F23BF35CD9D8A7EBB7A3277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EA287CD1A824023366297C /* main.m in Sources */,
+				6B128E68A1D66C66638DFC20 /* AnimatedCurrentLocationViewController.m in Sources */,
+				8FFF3BF008786EB18B043A1D /* BasicMapViewController.m in Sources */,
+				5FE02FFF868D15D8D69236E4 /* CameraViewController.m in Sources */,
+				3AF4F564272BFBDA037F523C /* CustomIndoorViewController.m in Sources */,
+				091F587A96B8D4C0768FE74A /* CustomMarkersViewController.m in Sources */,
+				0DE84EB76067BB08EC733A02 /* DoubleMapViewController.m in Sources */,
+				01C27DCF01AEC43DFC106C25 /* FitBoundsViewController.m in Sources */,
+				AA08207A192B904100D19F09 /* MarkerInfoWindowViewController.m in Sources */,
+				C8EE68BA6BC8E824C776A9F4 /* FixedPanoramaViewController.m in Sources */,
+				05ED99406D8E5C178D8EF0B6 /* GeocoderViewController.m in Sources */,
+				5BDFE7F34E8C2115C4DCB84C /* GestureControlViewController.m in Sources */,
+				5BC3DC896D1AA382964BCD56 /* GradientPolylinesViewController.m in Sources */,
+				AAE95DB818D7725700A7DC7E /* MapKitTileLayerViewController.m in Sources */,
+				AAC5CD0618D3A22600F265D0 /* MapKitViewController.m in Sources */,
+				B44713D8E88E07A8E366A281 /* GroundOverlayViewController.m in Sources */,
+				AFDF06A4DBF8F9BFFF79B062 /* IndoorMuseumNavigationViewController.m in Sources */,
+				CE2552FE6C7CF28F3FDE915C /* IndoorViewController.m in Sources */,
+				5F191C73FB597DF6C896410C /* MapLayerViewController.m in Sources */,
+				7EF0396A8F94EA20EFA0CCF4 /* MapTypesViewController.m in Sources */,
+				2CC0BC7BFF60B74F68079374 /* MapZoomViewController.m in Sources */,
+				32E27F6DC1EFB36749C45888 /* MarkerEventsViewController.m in Sources */,
+				AAE95DBE18D79FDE00A7DC7E /* GridTileOverlay.m in Sources */,
+				A46A7C7A95F1F728C1A8F025 /* MarkerLayerViewController.m in Sources */,
+				AAE95DB518D75CF200A7DC7E /* MapKitMapTypesViewController.m in Sources */,
+				3997A14E5BFDCDFF8F8BEF29 /* MarkersViewController.m in Sources */,
+				147A0D8218B663D1E458E229 /* MyLocationViewController.m in Sources */,
+				C9FC8A4B15E0276E9E07F23E /* PanoramaViewController.m in Sources */,
+				AAE95DB218D756CB00A7DC7E /* MapKitOverlaysViewController.m in Sources */,
+				596BEB117E21F5FE49636898 /* PolygonsViewController.m in Sources */,
+				448BF4DEBE647F82DB3F546F /* PolylinesViewController.m in Sources */,
+				A41B88609BD8C3D1E631F95A /* Samples.m in Sources */,
+				34729168899BC5A8AEF0F708 /* StructuredGeocoderViewController.m in Sources */,
+				DCA0DBACC270CD0C8BB5676E /* TileLayerViewController.m in Sources */,
+				B92BCB66951396138F87274B /* TrafficMapViewController.m in Sources */,
+				C50EF6753B1D9B900A0975A8 /* VisibleRegionViewController.m in Sources */,
+				B7D13C1B54C9D045F63EFB21 /* SDKDemoAppDelegate.m in Sources */,
+				BE69C8220E7705F65843966D /* SDKDemoMasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		182F5544C35981299E88F8A3 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "./SDKDemos/SDKDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					.,
+					"$(SDKROOT)/System/Library/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = GoogleAndMapKit;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 armv7";
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+		A37B5359681FA0FDEE47E9A5 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SDKROOT = iphoneos;
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		258F0E920477D8ADA8B68139 /* Build configuration list for PBXNativeTarget "GoogleAndMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182F5544C35981299E88F8A3 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		3203C92569C9F50F18471A03 /* Build configuration list for PBXProject "GoogleAndMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37B5359681FA0FDEE47E9A5 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0152C353C1C1C999BE34696 /* Project object */;
+}
